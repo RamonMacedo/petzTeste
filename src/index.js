@@ -8,7 +8,7 @@ import Details from './pages/details.js'
 ReactDOM.render(
 	<React.Fragment>
 		<Header />
-		<Details />
+		<Main />
 	</React.Fragment>,
 	document.getElementById('root')
 )

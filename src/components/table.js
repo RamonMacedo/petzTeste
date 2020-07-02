@@ -42,6 +42,7 @@ export default class ViewTable extends React.Component {
 	render(){
 		return (
 			<Table>
+				<thead>
 				<Tr borderColor='#00A0E4'>
 					<Th>Nome</Th>
 					<Th>Departamento</Th>
@@ -49,16 +50,19 @@ export default class ViewTable extends React.Component {
 					<Th>Preço</Th>
 					<Th width='17%' />
 				</Tr>
-				<Tr>
-					<Td>Alfreds Futterkiste</Td>
-					<Td>Alfreds Futterkiste</Td>
-					<Td>Maria Anderson</Td>
-					<Td>Germany</Td>
-					<Td width='17%' justifyContent='flex-end'>
-						<Button title="Visualizar" marginRight='6px'/>
-						<Button bgImage={deleteImg} />
-					</Td>
-				</Tr>
+				</thead>
+				<tbody>
+					<Tr>
+						<Td>Alfreds Futterkiste</Td>
+						<Td>Alfreds Futterkiste</Td>
+						<Td>Maria Anderson</Td>
+						<Td>Germany</Td>
+						<Td width='17%' justifyContent='flex-end'>
+							<Button title="Visualizar" marginRight='6px'/>
+							<Button bgImage={deleteImg} />
+						</Td>
+					</Tr>
+				</tbody>
 			</Table>
 		)
 	};
