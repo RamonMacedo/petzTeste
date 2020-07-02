@@ -7,7 +7,6 @@ export default class ButtonView extends React.Component {
 	}
 
 	render(){
-		const props = this.props;
 		return (
 			<div 
 				onClick = {this.handleClick}

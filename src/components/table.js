@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Button from './button.js'
+import Filter from './filter.js'
 import deleteImg from '../images/deleteImg.png'
 
 const Table = styled.table`
@@ -54,10 +55,22 @@ export default class ViewTable extends React.Component {
 			<Table>
 				<thead>
 				<Tr borderColor='#00A0E4'>
-					<Th>Nome</Th>
-					<Th>Departamento</Th>
-					<Th>Pet</Th>
-					<Th>Idade</Th>
+					<Th>
+						Nome
+						<Filter />
+					</Th>
+					<Th>
+						Departamento
+						<Filter />
+					</Th>
+					<Th>
+						Pet
+						<Filter />
+					</Th>
+					<Th>
+						Idade
+						<Filter />
+					</Th>
 					<Th width='17%' />
 				</Tr>
 				</thead>

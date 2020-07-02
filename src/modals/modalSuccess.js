@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Background from '../components/background'
 import Image from '../components/image'
 import Label from '../components/label'
-import Button from '../components/button'
 
 import SuccessImg from '../images/success.png'
 
@@ -29,7 +28,6 @@ export default class ModalSuccess extends React.Component {
 	}
 
 	render(){
-		const props = this.props;
 		return (
 			<div>
 				<Background onClick={this.handleClose} />
