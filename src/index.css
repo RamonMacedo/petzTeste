@@ -4,3 +4,19 @@ body {
 	font-weight: 300;
 	padding: 20px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFD400;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6E6E6E;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
