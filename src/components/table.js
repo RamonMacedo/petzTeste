@@ -40,6 +40,8 @@ const Td = styled.td`
 
 export default class ViewTable extends React.Component {
 	render(){
+		const productList = this.props.productList;
+		console.log("productList", productList);
 		return (
 			<Table>
 				<thead>
@@ -53,7 +55,7 @@ export default class ViewTable extends React.Component {
 				</thead>
 				<tbody>
 					<Tr>
-						<Td>Alfreds Futterkiste</Td>
+						<Td>{productList.name}</Td>
 						<Td>Alfreds Futterkiste</Td>
 						<Td>Maria Anderson</Td>
 						<Td>Germany</Td>
