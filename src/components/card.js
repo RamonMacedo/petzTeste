@@ -18,6 +18,7 @@ const Container = styled.div`
 
 export default class Card extends React.Component {
 	render(){
+		const prodInfo = this.props.productInfo;
 		return (
 			<Container display='flex'>
 				<Container margin = '20px' display='inline-block'>
@@ -32,7 +33,7 @@ export default class Card extends React.Component {
 						/>
 						<div style={{display:'inline-block'}}>
 							<Label 
-								content = 'Pedigree Adulto'
+								content = {prodInfo.name}
 								width = '90%'
 								height = '20px'
 								margin = '0px 0px 0px 20px'
@@ -40,7 +41,7 @@ export default class Card extends React.Component {
 								fontWeight = 'bold'
 							/>
 							<Label 
-								content = 'Ração canina'
+								content = {prodInfo.department}
 								height = '20px'
 								margin = '0px 0px 0px 20px'
 								color = '#555'
@@ -48,33 +49,33 @@ export default class Card extends React.Component {
 							/>
 						</div>
 
-						<Container width='auto' float='right' display='inline-block'>
-							<div style={{width:'100%'}}>
+						<Container width='25%' float='right' display='inline-block' margin='0px 20px 0px 0px'>
+							<div style={{width: '100%', float: 'left'}}>
 								<Label 
-									content = 'Quantidade:'
+									content = 'Pet:'
 									height = '20px'
-									margin = '0px 0px 15px 5px'
+									margin = '0px 0px 5px 5px'
 									color = '#00A0E4'
 									fontWeight = 'bold'
 								/>
 								<Label 
-									content = '2'
+									content = {prodInfo.pet}
 									height = '20px'
-									margin = '0px 0px 15px 5px'
+									margin = '0px 0px 5px 5px'
 									color = '#555'
 								/>
 							</div>
 
-							<div style={{width:'100%', marginRight:'20px'}}>
+							<div style={{width: '100%', float: 'left'}}>
 								<Label 
-									content = 'Preço:'
+									content = 'Idade:'
 									height = '20px'
 									margin = '0px 0px 0px 5px'
 									color = '#00A0E4'
 									fontWeight = 'bold'
 								/>
 								<Label 
-									content = 'R$ 290,00'
+									content = {prodInfo.age}
 									height = '20px'
 									margin = '0px 0px 0px 5px'
 									color = '#555'
@@ -92,7 +93,7 @@ export default class Card extends React.Component {
 							fontWeight = 'bold'
 						/>
 						<Label 
-							content = 'Com o consumo regular de PURINA® DOG CHOW® e mantendo uma condição corporal ideal, seu cão pode viver melhor por mais tempo.  Evitam a oxidação de moléculas no organismo, retardando os sinais de envelhecimento e o surgimento de doenças crônicas.'
+							content = {prodInfo.description}
 							color = '#555'
 							fontSize = '13px'
 							textAlign = 'justify'

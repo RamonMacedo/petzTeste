@@ -39,31 +39,40 @@ const Td = styled.td`
 `
 
 export default class ViewTable extends React.Component {
+
+	handleView = (product) => {
+		this.props.viewProduct(product);
+	}
+
 	render(){
 		const productList = this.props.productList;
-		console.log("productList", productList);
 		return (
 			<Table>
 				<thead>
 				<Tr borderColor='#00A0E4'>
 					<Th>Nome</Th>
 					<Th>Departamento</Th>
-					<Th>Quantidade</Th>
-					<Th>Preço</Th>
+					<Th>Pet</Th>
+					<Th>Idade</Th>
 					<Th width='17%' />
 				</Tr>
 				</thead>
 				<tbody>
-					<Tr>
-						<Td>{productList.name}</Td>
-						<Td>Alfreds Futterkiste</Td>
-						<Td>Maria Anderson</Td>
-						<Td>Germany</Td>
-						<Td width='17%' justifyContent='flex-end'>
-							<Button title="Visualizar" marginRight='6px'/>
-							<Button bgImage={deleteImg} />
-						</Td>
-					</Tr>
+					{productList && productList.map((product, key) => {
+						return(
+							<Tr key={key}>
+								<Td>{product.name ? product.name : "--"}</Td>
+								<Td>{product.department ? product.department : "--"}</Td>
+								<Td>{product.pet ? product.pet : "--"}</Td>
+								<Td>{product.age ? product.age : "--"}</Td>
+								<Td width='17%' justifyContent='flex-end'>
+									<Button title="Visualizar" marginRight='6px' onClick={() => this.handleView(product)}/>
+									<Button bgImage={deleteImg} />
+								</Td>
+							</Tr>
+						);
+					})
+					}
 				</tbody>
 			</Table>
 		)

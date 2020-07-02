@@ -6,7 +6,8 @@
 	    	"department": "Rações Secas", 
 	    	"description": "A Premier Pet, responsável pela fabricação da ração Golden para cachorro, foi fundada em 1995 por um grupo de amantes dos animais. A empresa recebeu o título de primeira marca fabricante de alimentos Premium no Brasil. Atualmente, a empresa é uma das líderes em alimentação animal, sendo bastante recomendada por tutores e especialistas. Não deixe de conferir o catálogo de produtos da marca aqui na Petz!", 
 	    	"pet": "Cachorros", 
-	    	"age": "Adulto"
+	    	"age": "Adulto",
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1562338432812.jpg"
 	    },
 	    { 
 	    	"id": 2, 
@@ -14,7 +15,8 @@
 	    	"department": "Rações Secas", 
 	    	"description": "Sabendo da importância da alimentação para o desenvolvimento dos animais, a Premier Pet fabrica seus alimentos com muita qualidade. Isso, porque investe em tecnologia e conta com profissionais altamente capacitados. Tudo para ter a satisfação garantida dos consumidores. Desde sua fundação, em 1995, a empresa vem crescendo e se tornou referência de qualidade e confiança. Tem como missão fazer com que a relação dos tutores e seus bichinhos de estimação seja a mais próxima possível. Portanto, conte com a marca que é especialista em ração de cachorro.", 
 	    	"pet": "Cachorros", 
-	    	"age": "Adulto"
+	    	"age": "Adulto",
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1469037348170.jpg"
 	    },
 	    { 
 	    	"id": 3, 
@@ -53,8 +55,7 @@
 	    	"department": "Petiscos", 
 	    	"description": "Seu amigo merece receber um bifinho delicioso e saudável. Por isso, ofereça o Doguitos Purina, um petisco de excelente sabor desenvolvido por uma marca que se propõe a produzir os melhores alimentos para animais de estimação. Fundada em 1894, a Purina é uma das maiores referências no segmento alimentício para pets. A empresa é responsável pelo lançamento do primeiro alimento seco para cachorro no mundo, em 1926. Não é o máximo?", 
 	    	"pet": "Cachorros", 
-	    	"age": "Sênior, Adulto e Filhote", 
-	    	"flavor": "Carne" 
+	    	"age": "Sênior, Adulto e Filhote"
 	    },
 	    { 
 	    	"id": 8, 
@@ -62,8 +63,7 @@
 	    	"department": "Petiscos", 
 	    	"description": "A Premier Pet — presente no mercado há mais de 20 anos — tem o objetivo de oferecer apenas o melhor para nossos animaizinhos. E o biscoito canino da marca foi desenvolvido pensando na saúde dos pets e em complementar da melhor maneira a dieta do dia a dia deles. O cookie PremieR produzido em uma das fábricas mais modernas do mundo, reúne qualidade, sabor e saúde em um só produto. Além de auxiliar na musculatura da boca e atuar no combate à formação de tártaro, esse petisco proporciona mais saúde ao trato digestivo do seu companheiro. Por isso, é uma ótima opção de lanche para seu cãozinho!", 
 	    	"pet": "Cachorros", 
-	    	"age": "Adulto", 
-	    	"flavor": "Frango" 
+	    	"age": "Adulto"
 	    },
 	    { 
 	    	"id": 9, 

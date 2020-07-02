@@ -19,7 +19,7 @@ export default class ButtonView extends React.Component {
 	render(){
 		const props = this.props;
 		return (
-			<Button marginRight={props.marginRight}>{props.title ? props.title : props.bgImage ? <Image bgImage={props.bgImage} /> : ''}</Button>
+			<Button marginRight={props.marginRight} onClick={props.onClick}>{props.title ? props.title : props.bgImage ? <Image bgImage={props.bgImage} /> : ''}</Button>
 		)
 	};
 }

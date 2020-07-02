@@ -3,10 +3,23 @@ import Card from '../components/card'
 
 
 export default class Details extends React.Component {
+	state = {
+		productInfo: {} 
+	}
+
+	componentDidMount(){
+		this.setData();
+	}
+
+	setData = () => {
+		var productInfo = this.props.location.state;
+		this.setState({productInfo})
+	}
+
 	render() {
 		return (
 			<div>
-				<Card />
+				<Card productInfo = {this.state.productInfo}/>
 			</div>
 		)	
 	}
