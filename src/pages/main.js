@@ -102,7 +102,7 @@ export default class Main extends React.Component {
 	}
 
 	handleOpenFilter = (value) => {
-		this.setState({selectedField: value, status: value == this.state.selectedField ? !this.state.status : true});
+		this.setState({selectedField: value, status: value === this.state.selectedField ? !this.state.status : true});
 	}
 
 	handleFilter = (field) => {

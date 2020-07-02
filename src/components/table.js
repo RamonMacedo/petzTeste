@@ -74,19 +74,19 @@ export default class ViewTable extends React.Component {
 				<Tr borderColor='#00A0E4'>
 					<Th>
 						Nome
-						<Filter listFields={this.props.nameList} selectedFilter = {status && selectedField && selectedField == 'name'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('name')}}/>
+						<Filter listFields={this.props.nameList} selectedFilter = {status && selectedField && selectedField === 'name'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('name')}}/>
 					</Th>
 					<Th>
 						Departamento
-						<Filter listFields={this.props.departmentList} selectedFilter = {status && selectedField && selectedField == 'department'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('department')}}/>
+						<Filter listFields={this.props.departmentList} selectedFilter = {status && selectedField && selectedField === 'department'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('department')}}/>
 					</Th>
 					<Th>
 						Pet
-						<Filter listFields={this.props.petList} selectedFilter = {status && selectedField && selectedField == 'pet'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('pet')}}/>
+						<Filter listFields={this.props.petList} selectedFilter = {status && selectedField && selectedField === 'pet'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('pet')}}/>
 					</Th>
 					<Th>
 						Idade
-						<Filter listFields={this.props.ageList} selectedFilter = {status && selectedField && selectedField == 'age'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('age')}}/>
+						<Filter listFields={this.props.ageList} selectedFilter = {status && selectedField && selectedField === 'age'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('age')}}/>
 					</Th>
 					<Th width='17%' />
 				</Tr>
