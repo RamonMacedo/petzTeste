@@ -2,6 +2,9 @@ Documentação do Projeto para Teste Petz:
 
 O documento está baseado na pasta src, a pasta public contém somente o manifest.json, index.html e a imagem usada para o ícone da página.
 
+Na raiz do projeto estão localizados o package.json e o arquivo db.json. 
+db.json se trata do banco de dados utilizado no projeto, que está atrelado diretamente ao projeto.
+
 A pasta src está dividida entre 2 arquivos em sua raiz e 4 sub-pastas. 
 
 Os arquivos em sua raiz são:
