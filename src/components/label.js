@@ -9,6 +9,7 @@ const Label = styled.label`
 	font-weight: ${props => props.fontWeight || ''};
 	font-size: ${props => props.fontSize || ''};
 	text-align: ${props => props.textAlign || ''};
+	cursor: ${props => props.cursor || ''};
 	float: left;
 `
 
@@ -24,6 +25,7 @@ export default class LabelView extends React.Component {
 				fontWeight = {props.fontWeight}
 				fontSize = {props.fontSize}
 				textAlign = {props.textAlign}
+				cursor = {props.cursor}
 			>
 				{props.content}
 			</Label>

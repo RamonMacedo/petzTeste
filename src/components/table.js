@@ -50,7 +50,6 @@ export default class ViewTable extends React.Component {
 
 	render(){
 		const productList = this.props.productList;
-		console.log("productList", productList);
 		return (
 			<Table>
 				<thead>

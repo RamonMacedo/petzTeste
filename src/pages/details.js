@@ -16,10 +16,14 @@ export default class Details extends React.Component {
 		this.setState({productInfo})
 	}
 
+	goBack = () => {
+		this.props.history.push('/')
+	}
+
 	render() {
 		return (
 			<div>
-				<Card productInfo = {this.state.productInfo}/>
+				<Card productInfo = {this.state.productInfo} onBack = {this.goBack}/>
 			</div>
 		)	
 	}

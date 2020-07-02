@@ -13,6 +13,9 @@ const Image = styled.div`
 	background-color: ${props => props.bgColor || ''};
 	border: ${props => props.border || ''};
 	border-radius: ${props => props.borderRadius || ''};
+	cursor: ${props => props.cursor || ''};
+	animation: gira 8s linear infinite;
+    transform-origin: 43px 40px;
 `
 
 export default class ImageView extends React.Component {
@@ -28,6 +31,7 @@ export default class ImageView extends React.Component {
 				borderRadius={props.borderRadius}
 				bgImage={props.bgImage} 
 				bgColor={props.bgColor}
+				cursor={props.cursor}
 			/>
 		)
 	};
