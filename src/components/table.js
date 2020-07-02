@@ -41,6 +41,13 @@ const Td = styled.td`
 
 export default class ViewTable extends React.Component {
 
+	componentDidUpdate(prevProps){
+		if(prevProps.productList !== this.props.productList){
+			
+		}
+		return true;
+	}
+
 	handleView = (product) => {
 		this.props.viewProduct(product);
 	}
@@ -49,27 +56,37 @@ export default class ViewTable extends React.Component {
 		this.props.onDelete(product);
 	}
 
+	onOpenFilter = (value) => {
+		this.props.onOpenFilter(value);
+	}
+
+	onFilter = (field) => {
+		this.props.onFilter(field);
+	}
+
 	render(){
 		const productList = this.props.productList;
+		const selectedField = this.props.selectedField;
+		const status = this.props.status;
 		return (
 			<Table>
 				<thead>
 				<Tr borderColor='#00A0E4'>
 					<Th>
 						Nome
-						<Filter />
+						<Filter listFields={this.props.nameList} selectedFilter = {status && selectedField && selectedField == 'name'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('name')}}/>
 					</Th>
 					<Th>
 						Departamento
-						<Filter />
+						<Filter listFields={this.props.departmentList} selectedFilter = {status && selectedField && selectedField == 'department'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('department')}}/>
 					</Th>
 					<Th>
 						Pet
-						<Filter />
+						<Filter listFields={this.props.petList} selectedFilter = {status && selectedField && selectedField == 'pet'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('pet')}}/>
 					</Th>
 					<Th>
 						Idade
-						<Filter />
+						<Filter listFields={this.props.ageList} selectedFilter = {status && selectedField && selectedField == 'age'} onFilter={this.onFilter} onOpenFilter={() => {this.onOpenFilter('age')}}/>
 					</Th>
 					<Th width='17%' />
 				</Tr>
