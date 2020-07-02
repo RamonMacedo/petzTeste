@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Label from './label'
 import Image from './image'
 
-import ExampleImg from '../images/example.jpg'
+import ExampleImg from '../images/exampleImg.png'
 
 const Container = styled.div`
 	width: ${props => props.width || '100%'};
@@ -29,7 +29,7 @@ export default class Card extends React.Component {
 							float = 'left'
 							border = '1px solid #555'
 							borderRadius = '5px'
-							bgImage = {ExampleImg}
+							bgImage = {prodInfo && prodInfo.picture ? prodInfo.picture : ExampleImg}
 						/>
 						<div style={{display:'inline-block'}}>
 							<Label 
