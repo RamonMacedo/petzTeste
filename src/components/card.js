@@ -59,7 +59,7 @@ export default class Card extends React.Component {
 									fontWeight = 'bold'
 								/>
 								<Label 
-									content = {prodInfo.pet}
+									content = {prodInfo.pet ? prodInfo.pet : "--"}
 									height = '20px'
 									margin = '0px 0px 5px 5px'
 									color = '#555'
@@ -75,7 +75,7 @@ export default class Card extends React.Component {
 									fontWeight = 'bold'
 								/>
 								<Label 
-									content = {prodInfo.age}
+									content = {prodInfo.age ? prodInfo.age : "--"}
 									height = '20px'
 									margin = '0px 0px 0px 5px'
 									color = '#555'

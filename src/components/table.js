@@ -44,6 +44,10 @@ export default class ViewTable extends React.Component {
 		this.props.viewProduct(product);
 	}
 
+	handleDelete = (product) => {
+		this.props.onDelete(product);
+	}
+
 	render(){
 		const productList = this.props.productList;
 		console.log("productList", productList);
@@ -68,7 +72,7 @@ export default class ViewTable extends React.Component {
 								<Td>{product.age ? product.age : "--"}</Td>
 								<Td width='17%' justifyContent='flex-end'>
 									<Button title="Visualizar" marginRight='6px' onClick={() => this.handleView(product)}/>
-									<Button bgImage={deleteImg} />
+									<Button bgImage={deleteImg} onClick={() => this.handleDelete(product)} />
 								</Td>
 							</Tr>
 						);

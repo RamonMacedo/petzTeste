@@ -5,6 +5,7 @@ const Image = styled.div`
 	width: ${props => props.width || '13px'};
 	height: ${props => props.height || '13px'};
 	float: ${props => props.float || ''};
+	margin: ${props => props.margin || ''};
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;

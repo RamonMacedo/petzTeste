@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Image from './image'
 
 const Button = styled.button`
-	width: auto;
+	width: ${props => props.width || 'auto'};
 	height: 21px;
 	margin-right: ${props => props.marginRight || '0px'};
 	border: none;
@@ -19,7 +19,7 @@ export default class ButtonView extends React.Component {
 	render(){
 		const props = this.props;
 		return (
-			<Button marginRight={props.marginRight} onClick={props.onClick}>{props.title ? props.title : props.bgImage ? <Image bgImage={props.bgImage} /> : ''}</Button>
+			<Button width={props.width} marginRight={props.marginRight} onClick={props.onClick}>{props.title ? props.title : props.bgImage ? <Image bgImage={props.bgImage} /> : ''}</Button>
 		)
 	};
 }
