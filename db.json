@@ -7,7 +7,8 @@
 	    	"description": "A Premier Pet, responsável pela fabricação da ração Golden para cachorro, foi fundada em 1995 por um grupo de amantes dos animais. A empresa recebeu o título de primeira marca fabricante de alimentos Premium no Brasil. Atualmente, a empresa é uma das líderes em alimentação animal, sendo bastante recomendada por tutores e especialistas. Não deixe de conferir o catálogo de produtos da marca aqui na Petz!", 
 	    	"pet": "Cachorros", 
 	    	"age": "Adulto",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1562338432812.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1562338432812.jpg",
+        	"price": 115.99
 	    },
 	    { 
 	    	"id": 2, 
@@ -16,7 +17,8 @@
 	    	"description": "Sabendo da importância da alimentação para o desenvolvimento dos animais, a Premier Pet fabrica seus alimentos com muita qualidade. Isso, porque investe em tecnologia e conta com profissionais altamente capacitados. Tudo para ter a satisfação garantida dos consumidores. Desde sua fundação, em 1995, a empresa vem crescendo e se tornou referência de qualidade e confiança. Tem como missão fazer com que a relação dos tutores e seus bichinhos de estimação seja a mais próxima possível. Portanto, conte com a marca que é especialista em ração de cachorro.", 
 	    	"pet": "Cachorros", 
 	    	"age": "Adulto",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1469037348170.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1469037348170.jpg",
+        	"price": 190.99
 	    },
 	    { 
 	    	"id": 3, 
@@ -25,7 +27,8 @@
 	    	"description": "A Bravecto é referência no desenvolvimento de produtos para saúde animal. Além desse antipulgas incrível, a marca conta com uma linha enorme de remédios contra carrapatos, tanto para os cães como para gatos. Todas essas soluções inovadoras são desenvolvidas nos laboratórios da MSD Saúde Animal, um dos maiores nomes da indústria farmacêutica em todo o mundo. Com presença em mais de 50 países, e centenas de produtos no mercado, o grupo tem conquistado cada vez mais pessoas e bichinhos!", 
 	    	"pet": "Gatos", 
 	    	"age": "Adulto",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1558379525995.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1558379525995.jpg",
+        	"price": 171.99
 	    },
 	    { 
 	    	"id": 4, 
@@ -34,7 +37,8 @@
 	    	"description": "A Zoetis é referência no mercado pet quando falamos em saúde pet, por isso, há mais de 60 anos no mercado a marca vem buscando sempre melhorar seus medicamentos para levar sempre qualidade de vida para os seus consumidores! O remédio para pulga Simparic é apenas um dos produtos que a marca disponibiliza, preparado exclusivamente para cãezinhos de pequeno e médio porte a partir de tecnologias de ponta.", 
 	    	"pet": "Cachorros", 
 	    	"age": "Sênior, Adulto e Filhote",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1502309222713.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1502309222713.jpg",
+        	"price": 87.99
 	    },
 	    { 
 	    	"id": 5, 
@@ -43,7 +47,8 @@
 	    	"description": "Fundada em 1894, a Purina é referência na alimentação dos pets em todo o mundo. São mais de 100 anos de história em que a marca foi pioneira na produção de diversos produtos voltados ao bem-estar dos animais de estimação. Atualmente, a marca faz parte do grupo Nestlé e conta com diversas submarcas para atender todas as necessidades dos pets, como a areia granulada Tidy Cats, 100% natural e de qualidade.", 
 	    	"pet": "Gatos", 
 	    	"age": "Sênior, Adulto e Filhote",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1503662670200.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1503662670200.jpg",
+		"price": 
 	    },
 	    { 
 	    	"id": 6, 
@@ -51,7 +56,8 @@
 	    	"department": "Areias", 
 	    	"description": "A Chalesco pensou em tudo para melhorar a vida dos nossos bichinhos. Sabendo que a areia de sílica é fundamental para a higiene de gato, traz agora um excelente granulado, fácil e prático utilizar. Há anos no mercado, a Chalesco sempre levou para os lares o que há de melhor para os bichinhos de estimação. O compromisso da marca é deixar a vida dos tutores mais fácil, assim como proporcionar mais conforto, longevidade e uma vida mais agradável a todos os pets. ", 
 	    	"pet": "Gatos",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1529338978721.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1529338978721.jpg",
+        	"price": 33.99
 	    },
 	    { 
 	    	"id": 7, 
@@ -60,7 +66,8 @@
 	    	"description": "Seu amigo merece receber um bifinho delicioso e saudável. Por isso, ofereça o Doguitos Purina, um petisco de excelente sabor desenvolvido por uma marca que se propõe a produzir os melhores alimentos para animais de estimação. Fundada em 1894, a Purina é uma das maiores referências no segmento alimentício para pets. A empresa é responsável pelo lançamento do primeiro alimento seco para cachorro no mundo, em 1926. Não é o máximo?", 
 	    	"pet": "Cachorros", 
 	    	"age": "Sênior, Adulto e Filhote",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/10003280000034-1.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/10003280000034-1.jpg",
+        	"price": 5.19
 	    },
 	    { 
 	    	"id": 8, 
@@ -69,7 +76,8 @@
 	    	"description": "A Premier Pet — presente no mercado há mais de 20 anos — tem o objetivo de oferecer apenas o melhor para nossos animaizinhos. E o biscoito canino da marca foi desenvolvido pensando na saúde dos pets e em complementar da melhor maneira a dieta do dia a dia deles. O cookie PremieR produzido em uma das fábricas mais modernas do mundo, reúne qualidade, sabor e saúde em um só produto. Além de auxiliar na musculatura da boca e atuar no combate à formação de tártaro, esse petisco proporciona mais saúde ao trato digestivo do seu companheiro. Por isso, é uma ótima opção de lanche para seu cãozinho!", 
 	    	"pet": "Cachorros", 
 	    	"age": "Adulto",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1569849971101.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1569849971101.jpg",
+ 		"price": 14.99
 	    },
 	    { 
 	    	"id": 9, 
@@ -77,7 +85,8 @@
 	    	"department": "Casinhas", 
 	    	"description": "Principais cuidados com a casinha. O primeiro passo já foi dado e você escolheu a melhor casinha para cachorro, mas agora você precisa escolher o melhor lugar no seu lar para proporcionar ainda mais conforto ao seu melhor amigo. Primeiro lembre-se de manter o cantinho do pet longe de locais com muita circulação e colocar perto um comedouro, um bebedouro e todos os brinquedinhos do seu companheiro. Agora é importante se atentar ao material da casinha e o local disponível em sua casa. As casinhas de madeira são recomendadas para lugares cobertos, longe da chuva. Já as de plástico podem ficar em locais externos, mas sem muita exposição ao sol. Além disso, ensine o cãozinho a fazer suas necessidades fisiológicas longe do acessório para mantê-lo sempre limpinho. Furacão você encontra na Petz! Deve estar ansioso para deixar o cantinho do seu pet ainda mais bonito e confortável com a casinha da Furacão Pet, não é? Então venha comprar aqui no Pet Shop on-line da Petz e aproveite nossos preços incríveis! Não deixe de se inscrever em nosso site para receber ainda mais ofertas e novidades do mundo animal. É imperdível!", 
 	    	"pet": "Cachorros",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1443788736268.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1443788736268.jpg",
+        	"price": 52.19
 	    },
 	    { 
 	    	"id": 10, 
@@ -86,7 +95,8 @@
 	    	"description": "A Chalesco é uma das maiores fabricantes de itens para animais de estimação, como o próprio arranhador para gatos. Todos os seus produtos são formulados com máxima qualidade e segurança para os pets e possuem ótimo custo-benefício. A empresa investe constantemente no desenvolvimento e inovação de seus itens a partir de pesquisas, tudo para atender da melhor maneira as necessidades dos tutores em relação aos seus animais. Por isso, brinquedos para gatos é da Chalesco. ", 
 	    	"pet": "Gatos", 
 	    	"age": "Sênior, Adulto e Filhote",
-	    	"picture": "https://staticpetz.stoom.com.br/fotos/1458850117303.jpg"
+	    	"picture": "https://staticpetz.stoom.com.br/fotos/1458850117303.jpg",
+        	"price": 29.99
 	    }
 	],
   "empresa": {
